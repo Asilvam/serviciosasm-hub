@@ -1,0 +1,56 @@
+:root {
+  --white-strong: #ffffff;
+  --white-soft: #f8f7ff;
+  --ink-strong: #1e1230;
+  --ink-soft: #4b3f61;
+  --surface-border: #eadffa;
+
+  --orange-600: #ff6a1a;
+  --orange-500: #ff7f2a;
+  --violet-700: #5b21b6;
+  --violet-600: #6d28d9;
+  --purple-500: #8b3dff;
+
+  --orange-pastel: #ffe2cf;
+  --violet-pastel: #ece0ff;
+  --purple-pastel: #f3ebff;
+
+  --success-vivid: #16a34a;
+  --success-pastel: #dcfce7;
+  --warning-vivid: #d97706;
+  --warning-pastel: #ffedd5;
+  --info-vivid: #7c3aed;
+  --info-pastel: #ede9fe;
+
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 17px;
+  color: var(--ink-strong);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+a {
+  color: inherit;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}

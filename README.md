@@ -1,12 +1,18 @@
 # Servicios ASM Hub
 
-Portal principal de `servicisoasm.cl` para redirigir a los sistemas de la organizacion.
+Portal principal de `serviciosasm.cl` para redirigir a los sistemas de la organizacion.
 
 ## Objetivo
 
-- `servicisoasm.cl` funciona como pivote entre aplicaciones.
+- `serviciosasm.cl` funciona como pivote entre aplicaciones.
 - `Servicio Tecnico` disponible con acceso directo.
 - `Barber` y `Mi Minuto` visibles como modulos proximos.
+
+## Sistemas del hub
+
+- **Servicio Tecnico**: flujo de recepcion, diagnostico, repuestos, estados y tickets de impresion.
+- **Barber**: reserva de citas con seleccion de barbero, calendario y administracion de horarios.
+- **Mi Minuto**: control operativo de estacionamiento por minuto (entradas, salidas, deuda por evasion y resumen diario).
 
 ## Stack
 
@@ -25,16 +31,16 @@ npm run preview
 
 ## Dominio y arquitectura objetivo
 
-- Hub: `https://servicisoasm.cl`
-- Servicio Tecnico Front: `https://st.servicisoasm.cl`
-- Servicio Tecnico API: `https://api-st.servicisoasm.cl`
+- Hub: `https://serviciosasm.cl`
+- Servicio Tecnico Front: `https://st.serviciosasm.cl`
+- Servicio Tecnico API: `https://api-st.serviciosasm.cl`
 
 Dominios reservados para siguientes sistemas:
 
-- `https://barber.servicisoasm.cl`
-- `https://api-barber.servicisoasm.cl`
-- `https://miminuto.servicisoasm.cl`
-- `https://api-miminuto.servicisoasm.cl`
+- `https://barber.serviciosasm.cl`
+- `https://api-barber.serviciosasm.cl`
+- `https://miminuto.serviciosasm.cl`
+- `https://api-miminuto.serviciosasm.cl`
 
 ## Deploy en Cloudflare Pages
 
@@ -47,8 +53,8 @@ Configuracion recomendada:
 
 Asignar custom domains:
 
-- `servicisoasm.cl`
-- `www.servicisoasm.cl`
+- `serviciosasm.cl`
+- `www.serviciosasm.cl`
 
 ## Notas
 

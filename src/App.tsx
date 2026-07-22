@@ -13,21 +13,21 @@ const systems: SystemCard[] = [
     name: 'Servicio Tecnico',
     description:
       'Gestion operativa de recepcion, diagnostico, repuestos, estados y tickets de impresion.',
-    href: 'https://st.servicisoasm.cl',
+    href: 'https://st.serviciosasm.cl',
     status: 'available',
     accent: 'orange',
   },
   {
     name: 'Barber',
     description:
-      'Agenda y administracion de turnos para barberia con control de disponibilidad por equipo.',
+      'Reserva de citas con seleccion de barbero, calendario de disponibilidad y panel administrativo de horarios.',
     status: 'coming_soon',
     accent: 'violet',
   },
   {
     name: 'Mi Minuto',
     description:
-      'Sistema de atencion rapida para reservas y servicios, integrado al ecosistema Servicios ASM.',
+      'Control de estacionamiento por minuto: registro de entrada, cobro de salida, deudas por evasion y resumen diario.',
     status: 'coming_soon',
     accent: 'violet',
   },

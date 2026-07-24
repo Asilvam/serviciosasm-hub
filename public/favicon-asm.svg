@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="asm-gradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#asm-gradient)"/>
+  <path
+    fill="#FFFFFF"
+    fill-rule="evenodd"
+    d="M32 10 54 52H43.5l-4.6-9H25.1l-4.6 9H10L32 10Zm0 18-4.1 8h8.2L32 28Z"
+    clip-rule="evenodd"
+  />
+</svg>

@@ -4,6 +4,7 @@ type SystemCard = {
   name: string
   description: string
   href?: string
+  actionLabel?: string
   status: 'available' | 'coming_soon'
   accent: 'orange' | 'violet'
 }
@@ -14,6 +15,7 @@ const systems: SystemCard[] = [
     description:
       'Gestión operativa de recepción, diagnóstico, repuestos, estados y tickets de impresión.',
     href: 'https://st.serviciosasm.cl',
+    actionLabel: 'Abrir Servicio Técnico',
     status: 'available',
     accent: 'orange',
   },
@@ -28,8 +30,10 @@ const systems: SystemCard[] = [
     name: 'Mi Minuto',
     description:
       'Control de estacionamiento por minuto: registro de entrada, cobro de salida, deudas por evasión y resumen diario.',
-    status: 'coming_soon',
-    accent: 'violet',
+    href: 'https://miminuto.serviciosasm.cl',
+    actionLabel: 'Abrir Mi Minuto',
+    status: 'available',
+    accent: 'orange',
   },
 ]
 
@@ -70,7 +74,7 @@ function App() {
 
                 {isAvailable ? (
                   <a className="card-action" href={system.href}>
-                    Abrir Servicio Técnico
+                    {system.actionLabel ?? `Abrir ${system.name}`}
                   </a>
                 ) : (
                   <span className="availability-note">En preparación</span>

@@ -23,8 +23,10 @@ const systems: SystemCard[] = [
     name: 'Barber',
     description:
       'Reserva de citas con selección de barbero, calendario de disponibilidad y panel administrativo de horarios.',
-    status: 'coming_soon',
-    accent: 'violet',
+    href: 'https://barber.serviciosasm.cl',
+    actionLabel: 'Abrir Barber',
+    status: 'available',
+    accent: 'orange',
   },
   {
     name: 'Mi Minuto',
@@ -45,8 +47,7 @@ function App() {
           <span className="eyebrow">Portal de aplicaciones</span>
           <h1>Servicios ASM</h1>
           <p>
-            Accede a Servicio Técnico y conoce las próximas aplicaciones que
-            estarán disponibles.
+            Accede a Servicio Técnico, Barber y Mi Minuto desde un solo lugar.
           </p>
         </header>
 

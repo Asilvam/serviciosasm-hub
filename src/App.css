@@ -262,6 +262,13 @@
   .hub-main {
     padding: 28px 16px 24px;
     gap: 16px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero,
+  .systems-grid,
+  .contact-ticker-wrap {
+    min-width: 0;
   }
 
   .hero {

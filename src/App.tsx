@@ -133,7 +133,7 @@ function App() {
       </main>
 
       <footer className="hub-footer">
-        <span>Servicios ASM</span>
+        <span>© {new Date().getFullYear()} Servicios ASM</span>
       </footer>
     </div>
   )

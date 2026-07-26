@@ -1,26 +1,31 @@
 :root {
   --white-strong: #ffffff;
-  --white-soft: #f8f7ff;
-  --ink-strong: #1e1230;
-  --ink-soft: #4b3f61;
-  --surface-border: #eadffa;
+  --white-soft: #f7f5fb;
+  --ink-strong: #111827;
+  --ink-soft: #4b5563;
+  --surface-border: #d1d5db;
 
-  --orange-600: #9a3412;
-  --orange-500: #c2410c;
-  --violet-700: #5b21b6;
-  --violet-600: #6d28d9;
-  --purple-500: #8b3dff;
+  --accent-strong: #1d4ed8;
+  --accent-hover: #1e40af;
+  --accent-soft: #dbeafe;
+  --accent-ink: #1e3a8a;
 
-  --orange-pastel: #ffe2cf;
-  --violet-pastel: #ece0ff;
-  --purple-pastel: #f3ebff;
+  --orange-600: var(--accent-strong);
+  --orange-500: var(--accent-hover);
+  --violet-700: #1e40af;
+  --violet-600: #1d4ed8;
+  --purple-500: #2563eb;
 
-  --success-vivid: #16a34a;
-  --success-pastel: #dcfce7;
-  --warning-vivid: #d97706;
-  --warning-pastel: #ffedd5;
-  --info-vivid: #7c3aed;
-  --info-pastel: #ede9fe;
+  --orange-pastel: var(--accent-soft);
+  --violet-pastel: #dbeafe;
+  --purple-pastel: #eff6ff;
+
+  --success-vivid: #2563eb;
+  --success-pastel: var(--accent-soft);
+  --warning-vivid: #475569;
+  --warning-pastel: #e5e7eb;
+  --info-vivid: #1d4ed8;
+  --info-pastel: #dbeafe;
 
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -32,17 +37,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
+html {
   box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #root {
   min-height: 100svh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {

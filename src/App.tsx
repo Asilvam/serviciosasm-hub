@@ -1,4 +1,6 @@
 import './App.css'
+import { FaWhatsapp } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 type SystemCard = {
   name: string
@@ -89,22 +91,44 @@ function App() {
           className="contact-ticker-wrap"
           aria-label="Información de contacto"
         >
-          <a
-            className="contact-ticker"
-            href="mailto:alesoft.silva.m@gmail.com"
-            aria-label="Escribir a alesoft.silva.m@gmail.com"
-          >
+          <div className="contact-ticker">
             <span className="contact-ticker__track">
               <span className="contact-ticker__item">
-                <span>Contacto</span>
-                <strong>alesoft.silva.m@gmail.com</strong>
+                <a
+                  className="contact-ticker__link"
+                  href="mailto:alesoft.silva.m@gmail.com"
+                >
+                  <MdEmail className="contact-ticker__icon" aria-hidden="true" />
+                  alesoft.silva.m@gmail.com
+                </a>
+                <span className="contact-ticker__separator">•</span>
+                <a
+                  className="contact-ticker__link"
+                  href="https://wa.me/56981914285"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Escribir por WhatsApp al 981914285"
+                >
+                  <FaWhatsapp
+                    className="contact-ticker__icon"
+                    aria-hidden="true"
+                  />
+                  WhatsApp 981914285
+                </a>
               </span>
               <span className="contact-ticker__item" aria-hidden="true">
-                <span>Contacto</span>
-                <strong>alesoft.silva.m@gmail.com</strong>
+                <span className="contact-ticker__link">
+                  <MdEmail className="contact-ticker__icon" />
+                  alesoft.silva.m@gmail.com
+                </span>
+                <span className="contact-ticker__separator">•</span>
+                <span className="contact-ticker__link">
+                  <FaWhatsapp className="contact-ticker__icon" />
+                  WhatsApp 981914285
+                </span>
               </span>
             </span>
-          </a>
+          </div>
         </aside>
       </main>
 

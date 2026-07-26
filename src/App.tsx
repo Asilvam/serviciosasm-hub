@@ -85,6 +85,27 @@ function App() {
           })}
         </section>
 
+        <aside
+          className="contact-ticker-wrap"
+          aria-label="Información de contacto"
+        >
+          <a
+            className="contact-ticker"
+            href="mailto:alesoft.silva.m@gmail.com"
+            aria-label="Escribir a alesoft.silva.m@gmail.com"
+          >
+            <span className="contact-ticker__track">
+              <span className="contact-ticker__item">
+                <span>Contacto</span>
+                <strong>alesoft.silva.m@gmail.com</strong>
+              </span>
+              <span className="contact-ticker__item" aria-hidden="true">
+                <span>Contacto</span>
+                <strong>alesoft.silva.m@gmail.com</strong>
+              </span>
+            </span>
+          </a>
+        </aside>
       </main>
 
       <footer className="hub-footer">

@@ -39,6 +39,24 @@ const systems: SystemCard[] = [
     status: 'available',
     accent: 'orange',
   },
+  {
+    name: 'Tenis Qtro',
+    description:
+      'Aplicación de gestión y seguimiento para actividades de tenis.',
+    href: 'https://app-tenis-qtro-d464a680d0ae.herokuapp.com/',
+    actionLabel: 'Abrir Tenis Qtro',
+    status: 'available',
+    accent: 'orange',
+  },
+  {
+    name: 'Solnatura',
+    description:
+      'Catálogo público de productos de belleza, cuidado personal y bienestar con carrito de compras y sistema de pedidos.',
+    href: 'https://app-sol-natura-0293c96fcee5.herokuapp.com/',
+    actionLabel: 'Abrir Solnatura',
+    status: 'available',
+    accent: 'orange',
+  },
 ]
 
 function App() {
@@ -49,7 +67,8 @@ function App() {
           <span className="eyebrow">Portal de aplicaciones</span>
           <h1>Servicios ASM</h1>
           <p>
-            Accede a Servicio Técnico, Barber y Mi Minuto desde un solo lugar.
+            Accede a todos tus sistemas desde un solo lugar: Servicio Técnico,
+            Barber, Mi Minuto, Tenis Qtro y Solnatura.
           </p>
         </header>
 
